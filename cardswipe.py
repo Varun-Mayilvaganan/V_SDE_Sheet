@@ -3,7 +3,7 @@
 for i in range(int(input())):
     a = int(input())
     lis = list(map(int,input().split()))
-    b = 0
+    b = 1
     newlist = set()
     for j in range(a):
         if lis[j] not in newlist:
